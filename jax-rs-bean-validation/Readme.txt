@@ -9,12 +9,15 @@ cd glassfish4/glassfish/bin
 deploy jax-rs-beanvalidation.war
 ./asadmin deploy <folder of sample>target/jax-rs-beanvalidation.war
 
-To run go to browser and type
- http://localhost:8080/jax-rs-bean-validation/TestServlet
- 
- You will see 
- "Here is the status of the response 500
+You can try by using Advanced REST client or PostMan and sending data in the POST method
+<coffee>
+  <type>Expresso</type>
+  <size>XL</size> 
+  <name>Mocha1</name> 
+  <price>3.50</price>
+</coffee>
 
-There was 1 error when validating the request
+to the URL http://localhost:8080/jax-rs-bean-validation/v1/coffees
 
-The following validation error was thrown: Book does not exist for the isbn requested"
+or send a GET request to http://localhost:8080/jax-rs-bean-validation/v1/coffees/<order> 
+You will get a validation error incase there is no coffee with the order

@@ -9,7 +9,7 @@ cd glassfish4/glassfish/bin
 deploy jax-rs-beanvalidation.war
 ./asadmin deploy <folder of sample>target/jax-rs-beanvalidation.war
 
-You can try by using Advanced REST client or PostMan and sending data in the POST method
+You can try by using Advanced REST client or PostMan and sending data in the POST method 
 <coffee>
   <type>Expresso</type>
   <size>XL</size> 
@@ -17,7 +17,10 @@ You can try by using Advanced REST client or PostMan and sending data in the POS
   <price>3.50</price>
 </coffee>
 
-to the URL http://localhost:8080/jax-rs-bean-validation/v1/coffees
+Using curl to the URL http://localhost:8080/jax-rs-bean-validation/v1/coffees
+curl -X POST -d @test.xml http://localhost:8080/jax-rs-bean-validation/v1/coffees 
+--header "Content-Type:application/xml"
 
-or send a GET request to http://localhost:8080/jax-rs-bean-validation/v1/coffees/<order> 
+
+Send a GET request to http://localhost:8080/jax-rs-bean-validation/v1/coffees/<order> 
 You will get a validation error incase there is no coffee with the order

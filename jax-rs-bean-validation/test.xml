@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><coffee><name>Mocha1</name><order>4</order><size>XL</size><type>Expresso</type></coffee>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<coffee><name>Mocha</name>
+<size>XL</size>
+<type>Expresso</type>
+<price>3.50</price>
+</coffee>

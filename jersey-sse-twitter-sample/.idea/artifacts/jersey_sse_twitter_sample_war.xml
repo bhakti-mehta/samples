@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jersey-sse-twitter-sample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jersey-sse-twitter-sample.war">
+      <element id="artifact" artifact-name="jersey-sse-twitter-sample:war exploded" />
+    </root>
+  </artifact>
+</component>

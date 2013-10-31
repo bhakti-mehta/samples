@@ -13,11 +13,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Coffee {
 
     @VerifyValue(Type.class)
-    @NotNull
     private String type;
 
     @VerifyValue(Size.class)
-    @NotNull
     private String size;
 
     @NotNull

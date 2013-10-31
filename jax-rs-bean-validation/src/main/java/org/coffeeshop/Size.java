@@ -13,9 +13,9 @@ public enum Size {
     public String getValue() {
         return value;
     }
-    public String toString() {
+   /* public String toString() {
         return value;
-    }
+    }*/
 
 
 }

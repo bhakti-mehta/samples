@@ -42,6 +42,7 @@ public class VerifyValueValidator implements ConstraintValidator<VerifyValue, Ob
             Object enumValue = null;
 
             for (Enum enumerable : enumValues)   {
+                if (myval.equals(enumerable.toString()) ) return true;
                 enumValue = getEnumValue(enumerable);
                 if ((enumValue != null)
                         && (myval.toString().equals(enumValue.toString())))  {

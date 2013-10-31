@@ -34,7 +34,7 @@ public class CoffeeService {
 
     public CoffeeService() {
         // initial content
-        addCoffee(new Coffee("Cold", "Small", "Mocha", 3.50));
+        addCoffee(new Coffee("Brewed", "Small", "Mocha", 3.50));
 
     }
 

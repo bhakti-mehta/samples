@@ -39,9 +39,12 @@ public class VerifyValueValidator implements ConstraintValidator<VerifyValue, Ob
 
         if ((myval != null) && (enumClass != null)) {
             Enum[] enumValues = enumClass.getEnumConstants();
+            Object enumValue = null;
 
             for (Enum enumerable : enumValues)   {
-                if (myval.toString().equals(getEnumValue(enumerable)))  {
+                enumValue = getEnumValue(enumerable);
+                if ((enumValue != null)
+                        && (myval.toString().equals(enumValue.toString())))  {
                     return true;
                 }
             }
@@ -68,7 +71,7 @@ public class VerifyValueValidator implements ConstraintValidator<VerifyValue, Ob
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        return enumerable.name();
+        return null;
     }
 
 

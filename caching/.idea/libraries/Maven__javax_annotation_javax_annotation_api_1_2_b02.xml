@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.annotation:javax.annotation-api:1.2-b02">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2-b02/javax.annotation-api-1.2-b02.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2-b02/javax.annotation-api-1.2-b02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.2-b02/javax.annotation-api-1.2-b02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

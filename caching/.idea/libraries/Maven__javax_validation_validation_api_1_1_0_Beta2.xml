@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.validation:validation-api:1.1.0.Beta2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Beta2/validation-api-1.1.0.Beta2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Beta2/validation-api-1.1.0.Beta2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Beta2/validation-api-1.1.0.Beta2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -10,6 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  *
@@ -26,9 +27,8 @@ public class FeedRepository implements FeedsDataSource {
      * This is an in memory representation of the data which can be replaced by a
      * DataStore
      */
-    private static final Map<Integer, LinkedList<Feed>> feedsByUser =
-            Collections.synchronizedMap(
-            new LinkedHashMap<Integer,LinkedList<Feed>>());
+    private static final ConcurrentHashMap<Integer, LinkedList<Feed>> feedsByUser =
+           new ConcurrentHashMap<Integer, LinkedList<Feed>>();
 
     /**
      * This List represents all the Feeds which can be paginated and displayed

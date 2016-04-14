@@ -19,4 +19,13 @@ The top level requirements are that
 * Get paginated list of most recent feeds
 * Follow another user
 
+## Technologies used
+
+* Dropwizard
+* Embedded Jetty
+* JAX-RS and Jersey
+* In memory cache
+* In memory representation of data sources
+
+
 

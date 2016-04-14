@@ -7,10 +7,9 @@ The top level requirements are that
  * Employees can follow other people.
  * There should be a dashboard which lists the most recent tweets
 
-
 ## To run this sample
-mvn package
-sh runme.sh
+* mvn package
+* sh runme.sh
 
 
 ## The following cases are supported

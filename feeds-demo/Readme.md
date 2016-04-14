@@ -1,4 +1,6 @@
-# This  is a solution for a Twitter like solution which can be used internally by a company
+# Feeds Demo
+
+This  is a solution for a Twitter like solution which can be used internally by a company
 
 The top level requirements are that
  * A company can have employees who can post feeds to their followers
@@ -6,12 +8,12 @@ The top level requirements are that
  * There should be a dashboard which lists the most recent tweets
 
 
-# To run this sample
+## To run this sample
 mvn package
 sh runme.sh
 
 
-# The following cases are supported
+## The following cases are supported
 
 * Get details of a User
 * Get feeds posted by a user
